@@ -9,11 +9,11 @@ use Symfony\Component\Routing\Annotation\Route;
 class WomanController extends AbstractController
 {
     /**
-     * @Route("/woman", name="woman")
+     * @Route("/women", name="women")
      */
     public function index(): Response
     {
-        return $this->render('woman/index.html.twig', [
+        return $this->render('women/index.html.twig', [
             'controller_name' => 'WomanController',
         ]);
     }
