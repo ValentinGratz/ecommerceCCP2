@@ -1831,7 +1831,7 @@ a {
 }
 
 body {
-    font-family: Manrope;
+    font-family: 'Manrope';
 }
 
 blockquote {
@@ -3187,14 +3187,14 @@ a, a:hover {
 
 .cid-s0bsg6BUXn .col1 {
     position: relative;
-    background-image: url("assets/images/background135.jpg");
+    background-image: url("/assets/images/background150.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .cid-s0bsg6BUXn .col2 {
     position: relative;
-    background-image: url("assets/images/background2.jpg");
+    background-image: url("/assets/images/background2.jpg");
     background-size: cover;
     background-position: center;
 }
