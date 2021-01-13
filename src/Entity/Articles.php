@@ -32,7 +32,19 @@ class Articles
         return $this->id;
     }
 
+    /**
+     * @var string|null
+     * @ORM\Column(type="string", length=255)
+     */
+    private $image;
 
+    /**
+     * @var File|null
+     * @Assert\Image(mimeTypes={"image/jpeg", "image/jpg", "image/png"})
+     * @Vich\UploadableField(mapping="upload", fileNameProperty="image")
+     *
+     */
+    private $imageFile;
 
     public function getRefArticle(): ?string
     {
@@ -56,5 +68,39 @@ class Articles
         $this->designation_article = $designation_article;
 
         return $this;
+    }
+    public function getImage(): ?string
+    {
+        return $this->image;
+    }
+
+
+    public function setImage(?string $image)
+    {
+        $this->image = $image;
+        return $this;
+    }
+
+
+    /**
+     * @ORM\Column(type="datetime")
+     * @var null|DateTime
+     */
+    private $updated_at;
+
+
+    public function getImageFile()
+    {
+        return $this->imageFile;
+    }
+
+
+
+    public function setImageFile( ?File $imageFile ): void {
+        $this->imageFile = $imageFile;
+        if($this->imageFile instanceof UploadedFile){
+            $this->updated_at = new \DateTime('now');
+        }
+        //return $this;
     }
 }
