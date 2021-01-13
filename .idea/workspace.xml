@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="202dc65c-e37f-4883-9d1f-1b8718fef0f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Articles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/ArticlesType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ArticlesType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Kernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="347">
+              <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
               <folding>
                 <element signature="e#23#82#0#PHP" expanded="true" />
               </folding>
@@ -265,12 +261,12 @@
       <updated>1610352400606</updated>
       <workItem from="1610352401778" duration="21247000" />
       <workItem from="1610436767267" duration="7619000" />
-      <workItem from="1610523008457" duration="13764000" />
+      <workItem from="1610523008457" duration="13840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42630000" />
+    <option name="totallyTimeSpent" value="42706000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1227,8 +1223,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="347">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
           <folding>
             <element signature="e#23#82#0#PHP" expanded="true" />
           </folding>

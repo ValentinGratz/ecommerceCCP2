@@ -36,5 +36,5 @@ class Kernel extends BaseKernel
         }
     }
 
-new Vich\UploaderBundle\VichUploaderBundle();
+//new Vich\UploaderBundle\VichUploaderBundle();
 }
