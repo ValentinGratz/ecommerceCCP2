@@ -2,7 +2,11 @@ body {
     -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
     -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
     -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-    animation: -amp-start 8s steps(1, end) 0s 1 normal both
+    animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+    position: relative;
+    font-style: normal;
+    line-height: 1.2;
+    color: #4a4a4a;
 }
 
 @-webkit-keyframes -amp-start {
@@ -94,13 +98,6 @@ div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, ol, ul, li, figcaption, tex
 
 *:focus {
     outline: none;
-}
-
-body {
-    position: relative;
-    font-style: normal;
-    line-height: 1.2;
-    color: #4a4a4a;
 }
 
 section {
@@ -3377,9 +3374,6 @@ a, a:hover {
 
 .cid-s0bsr5G3ha .item-wrapper {
     padding: 2rem 2rem;
-}
-
-.cid-s0bsr5G3ha .item-wrapper {
     position: relative;
     z-index: 0;
 }
