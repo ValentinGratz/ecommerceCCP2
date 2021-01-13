@@ -14,6 +14,7 @@ class ArticlesType extends AbstractType
         $builder
             ->add('ref_article')
             ->add('designation_article')
+            ->add('articlesimgFile', 'file')
         ;
     }
 
