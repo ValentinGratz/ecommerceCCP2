@@ -69,40 +69,5 @@ class Articles
 
         return $this;
     }
-//    public function getImage(): ?string
-//    {
-//        return $this->image;
-//    }
-
-
-//    public function setImage(?string $image)
-//    {
-//        $this->image = $image;
-//        return $this;
-//    }
-
-
-//    /**
-//     * @ORM\Column(type="datetime")
-//     * @var null|DateTime
-//     */
-//    private $updated_at;
-
-
- //   public function getImageFile()
- //   {
- //       return $this->imageFile;
- //   }
-
-
-
-    //public function setImageFile( ?File $imageFile ): void {
-      //  $this->imageFile = $imageFile;
-      //  if($this->imageFile instanceof UploadedFile){
-        //    $this->updated_at = new \DateTime('now');
-   //     }
-        //return $this;
- //   }
-
 
 }

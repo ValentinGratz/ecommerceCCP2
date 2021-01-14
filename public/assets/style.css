@@ -3895,3 +3895,7 @@ a, a:hover {
 [class*="-iconfont"] {
     display: inline-flex;
 }
+
+td{
+    border-color:black;
+}
