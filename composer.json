@@ -7,5 +7,7 @@
             "email": "valentin.gratz@orange.fr"
         }
     ],
-    "require": {}
+    "require": {
+        "vich/uploader-bundle": "^1.16"
+    }
 }
