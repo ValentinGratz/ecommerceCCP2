@@ -8,6 +8,7 @@
         }
     ],
     "require": {
-        "vich/uploader-bundle": "^1.16"
+        "vich/uploader-bundle": "^1.16",
+        "symfony/dotenv": "^4.2", //essai resolution fatal errore
     }
 }
