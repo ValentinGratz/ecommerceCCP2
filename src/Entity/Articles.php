@@ -44,7 +44,7 @@ class Articles
      * @Vich\UploadableField(mapping="upload", fileNameProperty="image")
      *
      */
-    private $imageFile;
+
 
     public function getRefArticle(): ?string
     {
