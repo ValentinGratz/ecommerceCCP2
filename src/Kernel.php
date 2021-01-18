@@ -36,6 +36,6 @@ class Kernel extends BaseKernel
         }
     }
 
-new Vich\UploaderBundle\VichUploaderBundle()
-new Artgris\Bundle\MediaBundle\ArtgrisMediaBundle()
+//new Vich\UploaderBundle\VichUploaderBundle()
+//new Artgris\Bundle\MediaBundle\ArtgrisMediaBundle()
 }
