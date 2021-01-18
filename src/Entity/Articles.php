@@ -69,5 +69,21 @@ class Articles
 
         return $this;
     }
+    use Artgris\Bundle\MediaBundle\Form\Validator\Constraint as MediaAssert; // optionnal, to force image files
 
+    // ...
+
+    /**
+     * @var string
+     * @ORM\Column(type="string")
+     * @Assert\NotNull()
+     */
+    private $image;
+
+    /**
+     * @var Collection|string[]
+     * @ORM\Column(type="simple_array", nullable=true)
+     * @MediaAssert\Image()
+     */
+    private $gallery;
 }

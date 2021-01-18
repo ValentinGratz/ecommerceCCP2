@@ -16,4 +16,6 @@ return [
     Vich\UploaderBundle\VichUploaderBundle::class => ['all' => true],
     EasyCorp\Bundle\EasyAdminBundle\EasyAdminBundle::class => ['all' => true],
     Knp\Bundle\PaginatorBundle\KnpPaginatorBundle::class => ['all' => true],
+    Artgris\Bundle\FileManagerBundle\ArtgrisFileManagerBundle::class => ['all' => true],
+    Artgris\Bundle\MediaBundle\ArtgrisMediaBundle::class => ['all' => true],
 ];
