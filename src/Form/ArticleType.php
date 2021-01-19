@@ -12,9 +12,22 @@ class ArticleType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('designation')
-            ->add('price')
-            ->add('description')
+            ->add('titre', TextType::class)
+            ->add('contenu', CKEditorType::class) // Ce champ sera remplacé par un éditeur WYSIWIG
+            ->add('featured_image', FileType::class, [
+                'label' => 'Image'
+            ])
+            ->add('categories', EntityType::class, [
+                'class' => Categories::class,
+                'multiple' => true,
+                'expanded' => true
+            ])
+            ->add('mots_cles', EntityType::class, [
+                'class' => MotsCles::class,
+                'multiple' => true,
+                'expanded' => true
+            ])
+            ->add('Publier', SubmitType::class)
         ;
     }
 
