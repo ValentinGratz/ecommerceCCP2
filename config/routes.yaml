@@ -1,6 +1,7 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
-artgris_media:
-  resource: "@ArtgrisMediaBundle/Resources/config/routing.yml"
-  prefix: /admin
+
+dashboard:
+  path: /admin
+  controller: App\Controller\Admin\DashboardController::index
