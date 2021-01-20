@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="202dc65c-e37f-4883-9d1f-1b8718fef0f7" name="Default Changelist" comment="" />
+    <list default="true" id="202dc65c-e37f-4883-9d1f-1b8718fef0f7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Controller/AdminController.php" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,8 +244,13 @@
             <path>
               <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
               <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="backoffice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -306,12 +313,12 @@
       <workItem from="1610955069068" duration="10463000" />
       <workItem from="1611039832161" duration="1019000" />
       <workItem from="1611042633670" duration="8220000" />
-      <workItem from="1611127660857" duration="373000" />
+      <workItem from="1611127660857" duration="980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85417000" />
+    <option name="totallyTimeSpent" value="86024000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -325,7 +332,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.11409396" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.11409396" />
       <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.102013424" />
       <window_info id="Favorites" order="2" sideWeight="0.50141644" side_tool="true" weight="0.102013424" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -338,7 +345,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49798658" visible="true" weight="0.2776204" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49798658" visible="true" weight="0.2776204" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50201344" side_tool="true" weight="0.37677053" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -408,9 +415,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/CGVController.php">
       <provider selected="true" editor-type-id="text-editor" />
@@ -710,6 +714,9 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Categories.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/AdminController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
