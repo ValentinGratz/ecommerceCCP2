@@ -11,7 +11,7 @@ J'ai au final supprimer le dossier "vendor" que je n'arrive poas à remettre.
 
 Pour le git, j'ai du aussi reconfigurer, reclonner avec le logiciel github (bientôt le chemin pourrais être ecommerceCCP2/ecommerce/../.../.../ les fichiers. 
 
-Essai de création d'une bibliothèque de médias (comme WordPress) à l'aide de MediaBundle[https://github.com/artgris/MediaBundle]
+Essai de création d'une bibliothèque de médias (comme WordPress) à l'aide de MediaBundle(https://github.com/artgris/MediaBundle)
 
 ## Partie Administration
 (20/01/2021)
