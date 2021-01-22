@@ -20,3 +20,5 @@ Pour accéder aux pages admin (essai de création d'une page admin - comme un so
 
 - /article/ : pour accéder à la liste des articles (édition, suppression...)
 - /user/ : pour lister les utilisateurs inscrits.
+
+# Exercice/CCP fini le 21 / 01 / 2021
