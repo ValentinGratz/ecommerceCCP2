@@ -226,7 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,6 +242,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,11 +302,12 @@
       <workItem from="1611042633670" duration="8220000" />
       <workItem from="1611127660857" duration="3897000" />
       <workItem from="1611212989922" duration="594000" />
+      <workItem from="1611300558716" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89535000" />
+    <option name="totallyTimeSpent" value="90130000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,7 +321,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.11543624" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.11677852" />
       <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.102013424" />
       <window_info id="Favorites" order="2" sideWeight="0.50141644" side_tool="true" weight="0.102013424" />
       <window_info anchor="bottom" id="Message" order="0" />
